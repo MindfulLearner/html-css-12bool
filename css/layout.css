@@ -71,6 +71,41 @@ body > div:nth-child(5) {
     margin-top: 30px;
 }
 
+body > div:nth-child(19) > div {
+    justify-content: end;
+}
+
+body > div:nth-child(20) > div {
+    justify-content: center;
+}
+
+
+body > div:nth-child(21) > div > div:nth-child(1) > div {
+    height: 100px;
+}
+body > div:nth-child(21) > div > div:nth-child(2) {
+    align-self: flex-end;
+}
 
 
 
+
+body > div:nth-child(22) > div > div:nth-child(1) > div {
+    height: 100px;
+}
+
+body > div:nth-child(23) > div > div:nth-child(1) {
+    height: 100px;
+}
+
+body > div:nth-child(22) > div > div:nth-child(2) {
+    align-self: center;
+}
+
+body > div:nth-child(24) > div > div > div > div > div {
+    justify-content: space-around;
+}
+
+body > div:nth-child(24) > div.my-container.margin > div > div > div > div > div {
+    justify-content: space-between;
+}
