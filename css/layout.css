@@ -31,3 +31,41 @@ body{
     align-items: center;
     color: white;
 }
+
+.blu {
+    background-color: #6664cf;
+}
+
+
+.pink {
+    background-color: #cc6bcc;
+}
+
+
+/* NESTED CONTAINER MYBOX */
+.my-container-nested {
+    width: 95%;
+
+}
+
+.my-row-nested {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-box-nested{
+    height: 30px;
+    border: 1px solid #6664cf;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+
+
